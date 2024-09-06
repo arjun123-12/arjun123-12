@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="second.css"/>
+</head>
+<body>
+  			
+      <div class="container">
+        <h1>Search Gifthub Profile </h1>
+         <div class="search">
+           <input type="text"
+                 id="searchInput"
+                 name="searchInput"
+            placeholder="Enter user Gifthub name"/>
+         
+         <button class="primary-btn" id="search-btn">Search</button>
+      </div>
+      <div class="profile-box">
+        <div class="top-section">
+          <div class="left">
+            <div class="avatar">
+              <img src="C:\Users\user\Pictures\arjun.jpg" style="height: 100px; width: 100px;"/>
+            </div>
+            
+            <div class="self">
+              <h1>Arjun Jirwan</h1>
+              <h1>jirwanarjun@gmail.com</h1>
+             </div>
+            </div>
+            <button class ="primary-btn">Check Profile</button>
+          </div>
+          <div class="about">
+            <h2>About</h2>
+            <p>Youtuber|Instructor|Cricketer|Developer</p>
+          </div>
+          
+          <div class="status">
+            <div class="status-item">
+              <h1>Followers</h1>
+              <p>1000M</p>
+            </div>
+            <div class="status-item">
+              <h1>Following</h1>
+              <p>1000M</p>
+            </div>
+            <div class="status-item">
+              <h1>Report </h1>
+              <p>1000M</p>
+          </div>
+        </div>
+      </div>
+    </div>
+   
+   
+   <script src="sand.js"></script>
+</body>
+</html>
